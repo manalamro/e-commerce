@@ -1,0 +1,205 @@
+.Navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -23px;
+    height: 110px;
+    background-color: #eeeeee;
+    font-family: opensanshebrew-regular-webfont, Arial, Arial;
+    font-size: 15px;
+    background-color: #eeeeee;
+    position: fixed;
+    box-shadow: 0 10px 20px rgba(130, 128, 128, 0.19), 0 5px 5px rgba(206, 206, 206, 0.23);
+    }
+    
+    .Navbar img{
+    padding:10px 30px 5px 20px ;
+    position: relative;
+    
+    }
+
+.subMenuIcon{
+  display: none;
+}
+
+
+.Navbar .lineusingborder{
+    margin:0px 8px 0px 8px;
+    border-left: 1.2px dotted #9d9b9b ;
+    height: 20px;
+}
+ 
+.Navbar a{
+    color: #555555;
+    text-decoration: none;
+    font-weight:300;
+}
+ 
+ .Navbar .outerUl{
+     list-style-type: none;
+    display: flex;
+     flex-direction:row;
+     margin:55px 10px 5px 0px;
+     white-space: nowrap;
+ }
+
+.Navbar .innerUl{
+opacity: 0;
+position: absolute;
+width: 100px;
+background-color: #eeeeee;
+margin-top: 10px;
+margin-left: -43px;
+padding: 10px 7px 10px;
+color: #555555;
+font-family: opensanshebrew-regular-webfont, Arial, Arial;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.innerUlHr{
+    width: 109%;
+    border: 0.5px #ffffff solid;
+    margin-left: -9px;
+
+}
+
+.outerUlHr{
+display:none;
+}
+
+.Navbar a:hover{
+    color: #2c2c2c;
+}
+
+.Navbar .hoverdList :hover > ul{
+    display:block !important;
+    opacity: 1 !important;
+} 
+  
+.isShown{
+  display: block;
+  list-style-type: none;
+  display: flex;
+   flex-direction:row;
+   margin:55px 10px 5px 0px;
+   white-space: nowrap;
+}
+
+/* Small screens (phones) */
+@media only screen and (max-width: 660px) {
+    
+  .Navbar img{
+    margin-right:10%;
+    position:relative;
+    width:60%;
+    }
+    .outerUlHr{
+      display:block;
+      width: 100vw;
+      border: 0.5px #ffffff solid;
+      margin-left: -20px;
+      }
+     
+      .subMenuIcon{
+        display: block;
+        font-size: 20px;
+        margin:-16px 0 0 -15px;
+        color: #ffffff;
+        background-color: #555555;
+        height:20px;
+        width: 20px;
+
+      }
+
+    .Navbar .outerUl{
+     display: none;
+    }
+
+.isShown{
+      display: block;
+      list-style-type: none;
+      display: flex;
+      flex-direction :column;
+      background-color:gray;
+      height:297px;
+      width: 43vw;
+      padding:20px;
+      white-space:nowrap;
+      text-align: right;
+      left: 38.8%;
+      /* margin:62px 0 0 10px; */
+      position:absolute;
+      margin:55px 10px 5px 0px;
+
+    }
+
+    .Navbar ul li{
+      margin:10px;
+     }
+
+.navIcon{
+padding:10px;
+position:absolute;
+/* margin:23px 20% 0% 80%; */
+margin-top:23px ;
+background-color:gray;
+height:20px;
+width:30px;
+display: block!important;
+font-size:20px;
+left: 80.3%;
+
+}
+
+.Navbar .lineusingborder{
+display:none;
+}
+ 
+.Navbar{
+  height: 90px;
+  }
+
+  .Navbar a{
+color: white;
+}
+
+.Navbar .innerUl{
+  position: absolute;
+    width:30vw;
+    background-color:gray;
+    margin: -1px 0 0 -126px;
+    left: 3px;
+    padding: 10px 10px 120px;
+    height:4px;
+    }
+
+}
+
+  /* Tablets and larger screens (portrait) */
+@media only screen and (min-width: 660px) {
+    /* CSS styles for screens 768px wide and above */
+  }
+  
+  /* Tablets and larger screens in landscape mode */
+  @media only screen and (min-width: 1024px) and (orientation: landscape) {
+    /* CSS styles for screens 1024px wide and above in landscape mode */
+  }
+
+  /* Desktop screens */
+@media only screen and (min-width: 1200px) {
+    /* CSS styles for screens 1200px wide and above (typical for desktops) */
+  }
+  
+  /* Extra large screens */
+  @media only screen and (min-width: 1600px) {
+    /* CSS styles for screens 1600px wide and above (large monitors) */
+  }
+  
+  
+  /* High-resolution screens (Retina, HiDPI) */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+/* CSS styles for high-resolution screens */
+}

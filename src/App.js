@@ -5,7 +5,7 @@ import Login from './pages/logIn/login.page';
 import ItemDetails from './pages/itemDetails/itemDetails.page';
 import NotFound from './pages/notFound/notFoud.page';
 import Navbar from './components/navbar/navbar.component';
-
+import Footer from './components/footer/footer.component'
 function App() {
   return (
     <div className="App">
@@ -18,7 +18,8 @@ function App() {
             <Route path="/home/:id" element={<ItemDetails />} />
             <Route path="/NotFound" element={<NotFound />} />
             <Route path="/Contact"/>
-          </Routes>    
+          </Routes>   
+          <Footer/> 
         </BrowserRouter>
 
     </div>

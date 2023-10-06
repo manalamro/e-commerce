@@ -52,7 +52,7 @@ return(
                     </>}
 
 <ul className={className}>
-<li><Link to="/login" style={{color:"black",fontWeight:"bold",marginRight:"80px"}} onClick={ToggleClosedFromLi}>Login as Admin</Link></li>
+<li><Link to="/login" style={{color:"black",fontWeight:"bold",marginRight:"20px",whiteSpace:"nowrap"}} onClick={ToggleClosedFromLi}>Login as Admin</Link></li>
 <hr className="outerUlHr"/>
     <li><Link to="/home" onClick={ToggleClosedFromLi}>one</Link></li>
     <span className="lineusingborder"></span>
@@ -73,13 +73,32 @@ return(
     </ul>
       </div>
         </li>
-        <hr className="outerUlHr"/>
-        <span className="lineusingborder"></span>
-        <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li>
+   
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li>
     <span className="lineusingborder"></span>
     <hr className="outerUlHr"/>
     <li onClick={ToggleClosedFromLi}><Link to="/home">four</Link></li>
-
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">five</Link></li>
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">six</Link></li>
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li>
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li> <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li> <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li>
+    <hr className="outerUlHr"/>
+    <span className="lineusingborder"></span>
+    <li onClick={ToggleClosedFromLi}><Link to="/home">three</Link></li>
 </ul>
 
 <Link to="/">
